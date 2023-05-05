@@ -17,10 +17,10 @@ li{font-size: 1.25em;}
 
 #chat {
     position: fixed;
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     bottom: 40px;
-    right: 60px;
+    right: 5px;
     z-index: 0;
     border-radius: 100%;
     background-image: url(media/Whatsapp2.png);
@@ -133,6 +133,7 @@ header a:hover {
 }
 
 #jumbotron .correo .btn {
+    margin-top: 15px;
     width: 100px;
     height: 40px;
     border-radius: 5px;
@@ -327,7 +328,7 @@ footer {
 }
 
 .footer-links h4 {
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 25px;
     font-weight: 500;
     border-bottom: 2px solid;
@@ -337,7 +338,7 @@ footer {
 
 .footer-links ul li a{
     color: #211514;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     display: block;
     margin-bottom: 15px;
@@ -366,6 +367,11 @@ footer {
 
 /*Responsive*/
 @media (min-width: 1000px) {
+
+    #chat {
+        width: 80px;
+        height: 80px;
+    }
 
 header {
     position: fixed;
@@ -425,6 +431,10 @@ header nav {
     padding: 20px 30px;
 }
 
+#jumbotron .correo .btn {
+    margin: 0;
+}
+
 
 #productos .productos-2 {
     display: flex;
@@ -477,5 +487,9 @@ header nav {
 
 footer {
     height: 100%;
+}
+
+.footer-links ul li a{
+    font-size: 22px;
 }
 }
